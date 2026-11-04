@@ -7,7 +7,7 @@ unit_tests:
           - {review_date: '2025-01-13'}
           - {review_date: '2025-01-14'}
           - {review_date: '2025-01-15'}
-      - input: ref('seed_full_moon_dates')
+      - input: ref('full_moon_dates')
         rows:
           - {full_moon_date: '2025-01-14'}
     expect:
